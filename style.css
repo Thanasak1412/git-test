@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#content {
+  color: darkblue;
+  font-size: 1rem;
+  white-space: pre-line;
+}
+
+#button {
+  font-size: 1.5rem;
+  outline: none;
+  border: 1px solid skyblue;
+  padding: 0.5rem 1rem;
+  background-color: aliceblue;
+}
